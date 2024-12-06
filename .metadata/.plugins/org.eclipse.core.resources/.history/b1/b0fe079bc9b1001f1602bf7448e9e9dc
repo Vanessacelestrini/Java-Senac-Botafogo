@@ -1,0 +1,89 @@
+package Zoo;
+
+public class Gato {
+   private String cor;
+   private  String raca;
+   private  double peso;
+   
+    // Getters e Setters
+   
+    public String getCor() {
+	return cor;
+}
+
+public void setCor(String cor) {
+	this.cor = cor;
+}
+
+public String getRaca() {
+	return raca;
+}
+
+public void setRaca(String raca) {
+	this.raca = raca;
+}
+
+public double getPeso() {
+	return peso;
+}
+
+public void setPeso(double peso) {
+	this.peso = peso;
+}
+
+
+//Método para o gato emitir som de acordo com tamanho
+
+	public void emitirSom() {
+    	if (peso <= 3) {
+    		System.out.println("Miau!");
+    	}
+    	
+        if (peso > 3 && peso <= 5) {
+        	System.out.println("Miaaau!");
+        }
+        
+    	if (peso > 5) {
+    		System.out.println("Miau! Miau");
+    	}
+    
+    }
+    
+// Método para o gato brincar
+    
+    public void brincar() {
+    	System.out.println("brincando...");
+    	
+    }
+    
+// Método para o gato saltar
+    
+    public void saltar() {
+    	System.out.println("saltando...");
+    	
+    }
+    
+    //método para exibir informação
+    
+    public void info() {
+    	System.out.println("Raça " + raca);
+    	System.out.println("Cor " + cor);
+    	System.out.println("Peso " + peso + "Kg");
+    	
+    }
+    
+    //método para classificar peso
+    
+    public void classificarPeso() {
+        if (peso <= 3) {
+            System.out.println("Este gato é pequeno.");
+        } 
+        else if (peso > 3 && peso <= 5) {
+            System.out.println("Este gato é médio.");
+        }
+        else {
+            System.out.println("Este gato é grande.");
+        }
+    }
+
+}

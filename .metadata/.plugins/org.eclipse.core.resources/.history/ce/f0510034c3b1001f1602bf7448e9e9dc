@@ -1,0 +1,36 @@
+package Zoo;
+
+public class Gato {
+	String cor;
+    String raca;
+    double peso;
+    
+    
+ 
+    
+    
+    
+// Método para o gato emitir som
+    
+    public void emitirSom() {
+    	System.out.println("Miau!");
+    	
+    }
+    
+// Método para o gato brincar
+    
+    public void brincar() {
+    	System.out.println("brincando...");
+    	
+    }
+    
+// Método para o gato saltar
+    
+    public void saltar() {
+    	System.out.println("saltando...");
+    	
+    }
+    
+    
+
+}

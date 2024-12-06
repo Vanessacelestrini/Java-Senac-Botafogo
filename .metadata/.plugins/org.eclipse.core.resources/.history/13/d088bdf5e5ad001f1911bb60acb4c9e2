@@ -1,0 +1,15 @@
+package Calculadora;
+
+public class App {
+
+	public static void main(String[] args) 
+	{
+		Calculadora calc = new Calculadora();
+		
+		calc.multiplicar(7, 8);
+		calc.somar(6, 6);
+		
+		
+	}
+
+}

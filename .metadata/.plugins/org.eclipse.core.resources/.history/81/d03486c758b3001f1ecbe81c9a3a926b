@@ -1,0 +1,49 @@
+package Zoo;
+
+public class App {
+
+	public static void main(String[] args) {
+		Gato gato = new Gato();
+		Cachorro cao = new Cachorro ();
+		Jacare jaca = new Jacare ();
+		
+		jaca.setNome("Jacaré");
+		jaca.setPeso(50);
+	    jaca.setRaca("Papo Amarelo");
+	    System.out.println(jaca.getNome());
+		jaca.brincar();
+		jaca.emitirSom();
+		jaca.saltar();
+		jaca.setCor("Amarelo");
+		System.out.println("Kg" + jaca.getPeso());
+		System.out.println("" + jaca.getCor());
+		
+		cao.setNome("Cachorro");
+		cao.setPeso(13);
+		cao.setRaca("Dobermann");
+		System.out.println(cao.getNome());
+		cao.brincar();
+		cao.emitirSom();
+		cao.saltar();
+		cao.setCor("Preto");
+		System.out.println("Kg" + cao.getPeso());
+		System.out.println("O cachorro é : " + cao.getCor());
+		
+		
+	    gato.setNome("Gato");
+		gato.setPeso(3);
+		gato.setRaca("Vira Lata");
+		gato.brincar();
+		gato.emitirSom();
+		gato.saltar();
+		gato.setCor("Branco");
+		
+		
+	
+	}
+	
+	
+
+}
+
+

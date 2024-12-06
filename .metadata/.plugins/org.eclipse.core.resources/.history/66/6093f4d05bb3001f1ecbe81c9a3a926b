@@ -1,0 +1,107 @@
+package Zoo;
+
+public class Animal {
+	   private String cor;
+	   private  String raca;
+	   private  double peso;
+	   private String nome;
+	   
+	   
+	    // Getters e Setters
+
+	public String getNome() {
+			return nome;
+		}
+
+		public void setNome(String nome) {
+			this.nome = nome;
+		}
+		
+    public String getCor() {
+			return cor;
+		}
+
+	   public void setCor(String cor) {
+		    this.cor = cor;
+	}
+
+	public String getRaca() {
+		return raca;
+	}
+
+	public void setRaca(String raca) {
+		this.raca = raca;
+	}
+
+	public double getPeso() {
+		return peso;
+	}
+	
+	public void setPeso(double peso) {
+		    this.peso = peso;
+	    }
+	
+
+	
+	//métodos
+
+	public void emitirSom() {
+    	if (peso <= 5) {
+    		System.out.println("Resmungando!");
+    	}
+    	
+        if (peso > 5 && peso <= 15) {
+        	System.out.println("Ressmungando!!");
+        }
+        
+    	if (peso > 15) {
+    		System.out.println("Reeesmungando!!!");
+    	}
+    
+    }
+    
+	    //brincar
+	    public void brincar() {
+	    	System.out.println("brincando...");
+	    	
+	    }
+	    
+	    
+	    //saltar
+	    public void saltar() {
+	    	System.out.println("saltando...");
+	    	
+	    }
+	    
+	    //peso
+	    public void peso() {
+	    	if (peso < 5) {
+	    		
+	    		System.out.println("kg");
+	    	}
+	    	
+	    	 if (peso > 5 && peso <= 15) {
+	    		 
+	    		System.out.println("kg");
+	    	}
+	    	 
+	    	 if (peso > 15) {
+	    		 
+	     		System.out.println("Kg");
+	    	 }
+	    }
+	    	 
+	    //raça
+	    
+	    	public void raca() {
+	    		System.out.println("");
+	    		
+	    		{
+	    	
+	    	
+	    }
+	       
+
+}
+}
+	  
