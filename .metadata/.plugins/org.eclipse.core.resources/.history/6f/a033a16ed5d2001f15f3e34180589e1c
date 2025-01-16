@@ -1,0 +1,9 @@
+package model;
+
+public class Tarefa {
+	private int id;
+	private String descricao;
+	private int prazo;
+	private boolean finalizada;
+
+}

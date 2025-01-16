@@ -1,0 +1,8 @@
+package Zoo;
+
+public class Gato {
+	String cor;
+    String raca;
+    double peso;
+
+}

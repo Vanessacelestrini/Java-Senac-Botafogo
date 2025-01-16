@@ -1,0 +1,48 @@
+package Zoo;
+
+public class Gato {
+	String cor;
+    String raca;
+    double peso;
+    
+// Método para o gato emitir som
+    
+    public void emitirSom() {
+    	System.out.println("Miau!");
+    	
+    }
+    
+// Método para o gato brincar
+    
+    public void brincar() {
+    	System.out.println("brincando...");
+    	
+    }
+    
+// Método para o gato saltar
+    
+    public void saltar() {
+    	System.out.println("saltando...");
+    	
+    }
+    
+    public void info() {
+    	System.out.println("Raça" + raca);
+    	System.out.println("Cor" + cor);
+    	System.out.println("Peso" + peso + "Kg");
+    	
+    }
+    
+    public void classificarPeso() {
+        if (peso <= 3) {
+            System.out.println("Este gato é pequeno.");
+        } 
+        else if (peso > 3 && peso <= 5) {
+            System.out.println("Este gato é médio.");
+        }
+        else {
+            System.out.println("Este gato é grande.");
+        }
+    }
+
+}
